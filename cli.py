@@ -1,7 +1,6 @@
 import sys
 import argparse
 from typing import Tuple, List
-
 def parse_args() -> Tuple[int, int, bool, List[str], bool]:
     """
     Parse command line arguments with improved validation.
@@ -23,6 +22,7 @@ def parse_args() -> Tuple[int, int, bool, List[str], bool]:
         "--duration",
         type=int,
         default=10,
+# hi
         help="Monitoring duration in seconds"
     )
     
